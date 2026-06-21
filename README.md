@@ -140,7 +140,3 @@ Some boards may return zero jobs or be skipped if a company changes ATS provider
 | `DATABASE_URL is not set` | Create a `.env` file with your connection string |
 | `password authentication failed` | Password in `.env` must match PostgreSQL user |
 | `permission denied for schema public` | Run `psql -U postgres -f fix_permissions.sql` |
-
-## License
-
-MIT
